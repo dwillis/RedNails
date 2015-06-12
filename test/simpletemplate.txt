@@ -1,0 +1,2 @@
+This is a #{s} simple text!
+It is #{v} simple no!
