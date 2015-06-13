@@ -6,12 +6,12 @@
 #
 # Authors: Zev Blut
 
-require 'test/unit'
+require 'minitest/autorun'
 require "rednails"
 
 RN_PATH = File.dirname(__FILE__)
 
-class TC_RedNails < Test::Unit::TestCase
+class TC_RedNails < Minitest::Test
 
   def read_file(file)
     File.open(file,"r") { |f| f.read }

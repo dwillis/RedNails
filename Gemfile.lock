@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    RedNails (1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.7.0)
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedNails!
+  bundler (~> 1.5)
+  minitest
+  rake
